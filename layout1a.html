@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Layout</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header,
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            height: 80px;
+            line-height: 80px;
+
+        }
+
+        nav {
+
+            background: aqua;
+            color: rgb(99, 24, 24);
+            height: 20px;
+
+            padding: 30px;
+
+        }
+
+        nav ul {
+            text-align: center;
+            list-style-type: none;
+            width: 40%;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline;
+            margin-right: 30px;
+
+        }
+
+        section {
+
+            height: 400px;
+
+        }
+
+        .main {
+            width: 10%;
+            height: 400px;
+            float: left;
+            background: rgb(14, 214, 154);
+        }
+
+        .main ul li {
+
+            margin-left: 30px;
+            list-style: none;
+            padding: 10px;
+
+        }
+
+        .side {
+            width: 90%;
+            height: 400px;
+            float: right;
+            background: lightblue;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+
+    </header>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Page</li>
+            <li>Product</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section>
+
+        <div class="main">
+
+
+            <ul>
+                <li>Home</li>
+                <li>Page</li>
+                <li>Product</li>
+                <li>Contact</li>
+            </ul>
+
+        </div>
+        <div class="side">
+
+            <p>The Flex Layout module is new layout module in CSS3 made to improve the items align,
+                <br> directions and order in the container even when they are with dynamic or even unknown size.
+                <br> The prime characteristic of the flex container is the ability to modify the width or height of its
+                children
+                <br> to fill the available space in the best possible way on different screen sizes.
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+
+</body>
+
+</html>
